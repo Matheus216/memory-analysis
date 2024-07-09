@@ -8,9 +8,6 @@ Intel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores
 
 
 ```
-| Method | Mean | Error |
-|------- |-----:|------:|
-| Run1   |   NA |    NA |
-
-Benchmarks with issues:
-  FileManagement.Run1: DefaultJob
+| Method | Mean    | Error   | StdDev  | Median  | Gen0         | Gen1        | Gen2       | Allocated |
+|------- |--------:|--------:|--------:|--------:|-------------:|------------:|-----------:|----------:|
+| Run1   | 9.840 s | 1.029 s | 2.985 s | 8.303 s | 1515000.0000 | 162000.0000 | 12000.0000 |   7.13 GB |
